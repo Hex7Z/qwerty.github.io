@@ -5,11 +5,13 @@
         <meta name="description" content="Web">
         <meta name="author" content="Furkan Testemel">
         <meta name="copyright" content="Furkan Testemel 2023">
-        <meta http-equiv="refresh" content="120; index.html">
+        <meta http-equiv="refresh" content="120; indextest.html">
         <link rel="icon" href="iconlar/newGraphicsCardIcon.ico" type="image/x-icon" />
 
         <title>Proje</title>
-        <link rel="stylesheet" href="anasayfa.css">
+        <link rel="stylesheet" href="anasayfatest.css">
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
     </head>
     <body>
         <div id="container">
@@ -22,16 +24,35 @@
             </header>
             <!---->
             <nav>
-                <a href="#" class="navButtonLink"><div class="navButton">Anasayfa</div></a>
-                <a href="#" class="navButtonLink"><div class="navButton">Yazılar</div></a>
-                <a href="#" class="navButtonLink"><div class="navButton">Kaynak</div></a>
-                <a href="#" class="navButtonLink"><div class="navButton">İletisim</div></a>
+                <a href="indextest.html" class="navButtonLink"><div class="navButton">Anasayfa</div></a>
+                <a href="yazilar.html" class="navButtonLink"><div class="navButton">Yazılar</div></a>
+                <a href="kaynak.html" class="navButtonLink"><div class="navButton">Kaynak</div></a>
+                <a href="iletisim.html" class="navButtonLink"><div class="navButton">İletisim</div></a>
             </nav>
             <!---->
             <section>
                 <article>
                     <a name="sayfabasi"></a>
-                    <h1 id="enSonYayinlananBaslik">En son yayınlanan yazılar</h1>
+                    <h1 class="baslikOrta">En son yayınlanan yazılar</h1>
+                    <!--Slider-->
+                    <div id="wowslider-container1">
+                        <div class="ws_images"><ul>
+                            <li><img src="data1/images/2014.gif" alt="2014" title="2014" id="wows1_0"/></li>
+                            <li><img src="data1/images/2023.gif" alt="2023" title="2023" id="wows1_1"/></li>
+                            <li><img src="data1/images/comic.gif" alt="jquery slideshow" title="comic" id="wows1_2"/></li>
+                            <li><img src="data1/images/unk.gif" alt="unk" title="unk" id="wows1_3"/></li>
+                        </ul></div>
+                        <div class="ws_bullets"><div>
+                            <a href="#" title="2014"><span><img src="data1/tooltips/2014.jpg" alt="2014"/>1</span></a>
+                            <a href="#" title="2023"><span><img src="data1/tooltips/2023.jpg" alt="2023"/>2</span></a>
+                            <a href="#" title="comic"><span><img src="data1/tooltips/comic.jpg" alt="comic"/>3</span></a>
+                            <a href="#" title="unk"><span><img src="data1/tooltips/unk.jpg" alt="unk"/>4</span></a>
+                        </div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+                        <div class="ws_shadow"></div>
+                        </div>	
+                        <script type="text/javascript" src="engine1/wowslider.js"></script>
+                        <script type="text/javascript" src="engine1/script.js"></script>
+
                     <a href="#">
                         <div class="onSayfaYazilari" id="yazi0">
                             <div class="yaziBasligBolgesi">
