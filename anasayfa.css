@@ -1,0 +1,277 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+    font-family: 'Verdana';
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url(resimler/brushed_alu_dark.png);
+}
+
+#container {
+    width: 80%;
+    height: 100vh;
+
+    margin: auto;
+
+    box-shadow: 5px 5px 15px black;
+}
+
+header {
+    background-image: url(resimler/Banner2x.png);
+    background-size: 120vw;
+    background-color: #05273d;
+    color: #faf9f6;
+
+    height: 16.5%;
+    width: auto;
+}
+
+header div {
+    width: 100%;
+    height: 100%;
+
+    background: rgb(5,39,61);
+    background: linear-gradient(90deg, rgba(5,39,61,1) 0%, rgba(5,39,61,1) 34%, rgba(255,255,255,0) 100%); 
+}
+
+header div img {
+    width: 15vh;
+    height: 15vh;
+
+    float: left;
+}
+
+header div p {
+    color: #f04014;
+
+    line-height: 14.5vh;
+    
+    font-size: 6vh;
+    font-weight: bolder;
+
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+nav {
+    background-color: #011626;
+
+    height: 4%;
+    width: auto;
+}
+
+section {
+    height: auto;
+}
+
+article {
+    background-color:#faf9f6;
+
+    min-height: 80vh;
+    height: auto;
+}
+
+footer {
+    background-color: #011626;
+    color: #faf9f6;
+
+    height: 10vh;
+    box-shadow: 5px 5px 15px black;
+}
+
+.navButton {
+    background-color: #f04014;
+    color: #faf9f6;
+
+    width: 12vh;
+    height: 4vh;
+
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    line-height: 4vh;
+
+    display: block;
+
+    float: left;
+
+    transition-property: background-color, color, width;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.navButton:hover {
+    background-color: #faf9f6;
+    color: #f04014;
+    width: 18vh;
+}
+
+.navButtonLink {
+    font-size: 1.75vh;
+    text-decoration: none;
+}
+
+/* Article Navigasyon */
+
+#articleNav {
+    position: fixed;
+
+    right: 0px;
+    bottom: 0px;
+
+    width: 15vh;
+    height: auto;
+}
+
+.articleNavButton {
+    background-color:rgba(182, 182, 182, 0.5);
+
+    transition-property: border;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.articleNavButton:hover {
+    border-right: 1vh rgba(0, 0, 0, 0.75) inset;
+}
+
+#articleNavSiteBasiButton {
+    background-color:rgba(104, 104, 104, 0.5);
+
+    transition-property: border;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+#articleNavSiteBasiButton:hover {
+    border-right: 1vh rgba(0, 0, 0, 0.75) inset;
+}
+
+#articleNavSiteSonuButton {
+    background-color:rgba(104, 104, 104, 0.5);
+
+    transition-property: border;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+#articleNavSiteSonuButton:hover {
+    border-right: 1vh rgba(0, 0, 0, 0.75) inset;
+}
+
+.articleNavLink {
+    color: rgba(0, 0, 0, 0.75);
+
+    font-size: 1.75vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Article */
+
+#enSonYayinlananBaslik {
+    color: #f04014;
+
+    font-weight: bold;
+    font-size: 1.75vh;
+
+    text-align: center;
+    text-shadow: 1px 1px #05273d;
+}
+
+.onSayfaYazilari {
+    background-color: #05273d;
+
+    margin-left: 7vw;
+    margin-top: 3.5vh;
+
+    width: 36.5%;
+    height: 30vh;
+
+    float: left;
+
+    box-shadow:1px 1px 15px black;
+
+    transition-property: box-shadow;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.onSayfaYazilariAlt {
+    background-color:#05273d;
+
+    margin-left: 7vw;
+    margin-top: 7.5vh;
+
+    width: 36.5%;
+    height: 30vh;
+
+    float: left;
+}
+
+.onSayfaYazilari:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+.onSayfaYazilariAlt:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+#yazi0 {
+    background-image: url(resimler/RESIMGELECEK.png);
+    background-size: contain;
+}
+
+#yazi1 {
+    background-image: url(resimler/RESIMGELECEK.png);
+    background-size: contain;
+}
+
+#yazi2 {
+    background-image: url(resimler/RESIMGELECEK.png);
+    background-size: contain;
+}
+
+#yazi3 {
+    background-image: url(resimler/RESIMGELECEK.png);
+    background-size: contain;
+}
+
+.yaziBasligBolgesi {
+    background-color:#faf9f685;
+    color: #011626;
+
+    margin-top: 20vh;
+
+    width: 100%;
+    height: 10vh;
+}
+
+.yaziBasligi {
+    text-align: center;
+    font-size: 3vh;
+
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.yaziParagraf {
+    text-align: justify;
+    font-size: 1.5vh;
+
+    padding: 0.75vw;
+}
+
+#footerCRText {
+    text-align: center;
+
+    line-height: 5vh;
+
+    font-size: 1.75vh;
+}
+
+/* Slider */
